@@ -1,0 +1,41 @@
+.container {
+  text-align: center;
+}
+.header {
+  display: inline-block;
+  background: blanchedalmond;
+  padding: 10px;
+  border: 5px solid plum;
+}
+
+.countries {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.country {
+  border: 3px solid goldenrod;
+  background-color: aquamarine;
+  border-radius: 20px;
+  width: 300px;
+  padding: 20px;
+  margin: 25px 0;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+}
+
+.country-name {
+  text-align: center;
+  max-width: fit-content;
+  height: 75px;
+  padding: 5px;
+}
+
+.country img {
+  width: 250px;
+  height: 140px;
+  padding-bottom: 18px;
+}
